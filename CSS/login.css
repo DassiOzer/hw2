@@ -1,0 +1,88 @@
+body {  
+    background-color: rgb(71, 67, 67);
+    color: #e9f0f1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+    }
+    
+    /* .logo{
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 300px;
+    } */
+    
+    .container {
+        width: 25%;
+        margin:auto;
+        background-color: reba(225, 225, 225, 0.13);
+        backdrop-filter: blur(7px);
+        border-radius: 20px;
+        box-shadow: 0 0 40px rgba(236, 26, 11, 0.6);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+    
+    .login-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .login-content img {
+        margin-top: 20px;
+        height: 100px;
+    }
+    
+    .login-content h2 {
+        font-family: 'Ink Free';
+        margin: 15px;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+    
+    input {
+        border: none;
+        border-bottom: solid 2px #d62d0f;
+        outline: none;
+        background: none;
+        padding: 5px;
+        font-size: 25px;
+        font-family: 'poppins', sans-serif;
+        margin: 15px;
+        color: #fff;
+    }
+    
+    
+    .links:hover {
+        color: #2cd8d8;
+        cursor: pointer;
+    }
+    
+    .btn {
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+        border: none;
+        background-image: linear-gradient(to right, #2fc2cf,#ec5656, #ec101b);
+        background-size: 200%;
+        font-size: 1.2rem;
+        color: #fff;
+        font-family: 'Ink Free';
+        margin: 15px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-position: right;
+        background-image: linear-gradient(to left,#ec101b,#48d3eb, #2fc2cf);
+        transform: scale(104%);
+    }
+    
+    #signUpMassage,
+    #logInMassage{
+        color: red;
+    }
+
+
